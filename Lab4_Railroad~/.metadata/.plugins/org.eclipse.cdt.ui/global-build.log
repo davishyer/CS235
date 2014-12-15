@@ -1,0 +1,2188 @@
+12:16:14 **** Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:19: error: field ‘D’ has incomplete type
+   LinkedList<int> D;
+                   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+12:22:41 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+12:23:26 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+12:23:37 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+12:23:40 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:43:28 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:44:13 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:45:56 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:10:47: error: ‘T’ was not declared in this scope
+ class LinkedList : public LinkedListInterface<T>
+                                               ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:10:48: error: template argument 1 is invalid
+ class LinkedList : public LinkedListInterface<T>
+                                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:16:3: error: ‘T’ does not name a type
+   T item;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:25:10: error: expected ‘)’ before ‘value’
+   Node(T value)
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:54:18: error: ‘T’ has not been declared
+  void insertHead(T value)
+                  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:88:18: error: ‘T’ has not been declared
+  void insertTail(T value)
+                  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:126:19: error: ‘T’ has not been declared
+  void insertAfter(T value, T insertionNode)
+                   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:126:28: error: ‘T’ has not been declared
+  void insertAfter(T value, T insertionNode)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:173:14: error: ‘T’ has not been declared
+  void remove(T value)
+              ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:3: error: ‘LinkedList’ is not a template
+   LinkedList<int>* D;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList::Deque::addLeft’ within ‘LinkedList’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList::Deque::addRight’ within ‘LinkedList’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList::Deque::removeLeft’ within ‘LinkedList’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList::Deque::removeRight’ within ‘LinkedList’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList::Deque::showLeft’ within ‘LinkedList’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList::Deque::showRight’ within ‘LinkedList’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList::Deque::dequeSize’ within ‘LinkedList’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList::Deque::uniqueDeque’ within ‘LinkedList’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In constructor ‘LinkedList::Node::Node()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:22:4: error: ‘item’ was not declared in this scope
+    item = NULL;
+    ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: ‘clear’ was not declared in this scope
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList::insertHead(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:58:25: error: no matching function for call to ‘LinkedList::Node::Node(int&)’
+    head = new Node(value);
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:58:25: note: candidates are:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note: LinkedList::Node::Node()
+   Node()
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note:   candidate expects 0 arguments, 1 provided
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note: LinkedList::Node::Node(const LinkedList::Node&)
+  struct Node
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note:   no known conversion for argument 1 from ‘int’ to ‘const LinkedList::Node&’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:67:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) return;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:72:27: error: no matching function for call to ‘LinkedList::Node::Node(int&)’
+   Node* h = new Node(value);      //Adding the new head
+                           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:72:27: note: candidates are:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note: LinkedList::Node::Node()
+   Node()
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note:   candidate expects 0 arguments, 1 provided
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note: LinkedList::Node::Node(const LinkedList::Node&)
+  struct Node
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note:   no known conversion for argument 1 from ‘int’ to ‘const LinkedList::Node&’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList::insertTail(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:94:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) return;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:99:27: error: no matching function for call to ‘LinkedList::Node::Node(int&)’
+   Node* t = new Node(value);      //Adding the new tail
+                           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:99:27: note: candidates are:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note: LinkedList::Node::Node()
+   Node()
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note:   candidate expects 0 arguments, 1 provided
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note: LinkedList::Node::Node(const LinkedList::Node&)
+  struct Node
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note:   no known conversion for argument 1 from ‘int’ to ‘const LinkedList::Node&’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList::insertAfter(int, int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:133:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) return;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:141:16: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(current->item == insertionNode)
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:148:29: error: no matching function for call to ‘LinkedList::Node::Node(int&)’
+     Node* m = new Node(value);
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:148:29: note: candidates are:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note: LinkedList::Node::Node()
+   Node()
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:3: note:   candidate expects 0 arguments, 1 provided
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note: LinkedList::Node::Node(const LinkedList::Node&)
+  struct Node
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:14:9: note:   no known conversion for argument 1 from ‘int’ to ‘const LinkedList::Node&’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList::remove(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:184:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) break;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: ‘clear’ was not declared in this scope
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:203:22: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(value == head->item)
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:212:22: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(current->next->item == value)
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:46:06 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:46:45 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:11:1: error: expected class-name before ‘{’ token
+ {
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:47:09 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: expected identifier before ‘<’ token
+ template class <T>
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: expected unqualified-id before ‘<’ token
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘;’ at end of input
+ }
+ ^
+make: *** [Deque.o] Error 1
+19:47:16 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:16:5: error: field ‘item’ has incomplete type
+   T item;
+     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:19:8: error: definition provided for explicit instantiation
+   Node()
+        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:24:9: error: definition provided for explicit instantiation
+   ~Node() {};
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:25:15: error: definition provided for explicit instantiation
+   Node(T value)
+               ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:36:17: error: definition provided for explicit instantiation
+  LinkedList(void)
+                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:42:18: error: definition provided for explicit instantiation
+  ~LinkedList(void)
+                  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:54:25: error: definition provided for explicit instantiation
+  void insertHead(T value)
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:88:25: error: definition provided for explicit instantiation
+  void insertTail(T value)
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:126:43: error: definition provided for explicit instantiation
+  void insertAfter(T value, T insertionNode)
+                                           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:173:21: error: definition provided for explicit instantiation
+  void remove(T value)
+                     ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:3: error: ‘LinkedList’ is not a template
+   LinkedList<int>* D;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList::Deque::addLeft’ within ‘LinkedList’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList::Deque::addRight’ within ‘LinkedList’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList::Deque::removeLeft’ within ‘LinkedList’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList::Deque::removeRight’ within ‘LinkedList’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList::Deque::showLeft’ within ‘LinkedList’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList::Deque::showRight’ within ‘LinkedList’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList::Deque::dequeSize’ within ‘LinkedList’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList::Deque::uniqueDeque’ within ‘LinkedList’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In constructor ‘LinkedList::Node::Node()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:22:4: error: ‘item’ was not declared in this scope
+    item = NULL;
+    ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In constructor ‘LinkedList::Node::Node(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:25:3: error: ‘value’ has incomplete type
+   Node(T value)
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: forward declaration of ‘class T’
+ template class T
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:27:4: error: ‘item’ was not declared in this scope
+    item = value;
+    ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘virtual LinkedList::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: warning: pure virtual ‘void LinkedListInterface<T>::clear() [with T = T]’ called from destructor [enabled by default]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘virtual void LinkedList::insertHead(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:54:7: error: ‘value’ has incomplete type
+  void insertHead(T value)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: forward declaration of ‘class T’
+ template class T
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:67:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) return;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘virtual void LinkedList::insertTail(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:88:7: error: ‘value’ has incomplete type
+  void insertTail(T value)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: forward declaration of ‘class T’
+ template class T
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:94:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) return;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘virtual void LinkedList::insertAfter(T, T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:126:7: error: ‘value’ has incomplete type
+  void insertAfter(T value, T insertionNode)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: forward declaration of ‘class T’
+ template class T
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:126:7: error: ‘insertionNode’ has incomplete type
+  void insertAfter(T value, T insertionNode)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: forward declaration of ‘class T’
+ template class T
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:133:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) return;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:141:16: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(current->item == insertionNode)
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘virtual void LinkedList::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:173:7: error: ‘value’ has incomplete type
+  void remove(T value)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:8:16: error: forward declaration of ‘class T’
+ template class T
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:184:10: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(n->item == value) break;
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:203:22: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(value == head->item)
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:212:22: error: ‘struct LinkedList::Node’ has no member named ‘item’
+    if(current->next->item == value)
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘;’ at end of input
+make: *** [Deque.o] Error 1
+19:47:24 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:48:54 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:10:54: error: template argument 1 is invalid
+ class LinkedList : public LinkedListInterface<T value>
+                                                      ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:49:42 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:50:03 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:51:04 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:19: error: field ‘D’ has incomplete type
+   LinkedList<int> D;
+                   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:51:10 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:53:49 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:53:58 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:20: error: field ‘D’ has incomplete type
+   LinkedList<int*> D;
+                    ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:54:13 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:55:22 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList<T>::Deque::addLeft’ within ‘LinkedList<T>’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList<T>::Deque::addRight’ within ‘LinkedList<T>’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList<T>::Deque::removeLeft’ within ‘LinkedList<T>’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList<T>::Deque::removeRight’ within ‘LinkedList<T>’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList<T>::Deque::showLeft’ within ‘LinkedList<T>’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList<T>::Deque::showRight’ within ‘LinkedList<T>’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList<T>::Deque::dequeSize’ within ‘LinkedList<T>’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList<T>::Deque::uniqueDeque’ within ‘LinkedList<T>’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList<T>::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:44:9: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList<T>::remove(T)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:191:10: error: there are no arguments to ‘clear’ that depend on a template parameter, so a declaration of ‘clear’ must be available [-fpermissive]
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:236:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:284:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:56:48 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected nested-name-specifier before ‘namespace’
+ using namespace std;
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected ‘;’ before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:4:7: error: expected unqualified-id before ‘namespace’
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:3: error: ‘LinkedList’ is not a template
+   LinkedList <int>* D;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:3:28: error: cannot define member function ‘LinkedList::Deque::addLeft’ within ‘LinkedList’
+ bool Deque::addLeft(int car)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:9:29: error: cannot define member function ‘LinkedList::Deque::addRight’ within ‘LinkedList’
+ bool Deque::addRight(int car)
+                             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:15:24: error: cannot define member function ‘LinkedList::Deque::removeLeft’ within ‘LinkedList’
+ bool Deque::removeLeft()
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:25:25: error: cannot define member function ‘LinkedList::Deque::removeRight’ within ‘LinkedList’
+ bool Deque::removeRight()
+                         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:35:21: error: cannot define member function ‘LinkedList::Deque::showLeft’ within ‘LinkedList’
+ int Deque::showLeft()
+                     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:44:22: error: cannot define member function ‘LinkedList::Deque::showRight’ within ‘LinkedList’
+ int Deque::showRight()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:53:22: error: cannot define member function ‘LinkedList::Deque::dequeSize’ within ‘LinkedList’
+ int Deque::dequeSize()
+                      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:58:32: error: cannot define member function ‘LinkedList::Deque::uniqueDeque’ within ‘LinkedList’
+ bool Deque::uniqueDeque(int car)
+                                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:72:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In destructor ‘LinkedList::~LinkedList()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:43:9: error: ‘clear’ was not declared in this scope
+   clear();
+         ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘void LinkedList::remove(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:190:10: error: ‘clear’ was not declared in this scope
+    clear();
+          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:235:2: error: a function-definition is not allowed here before ‘{’ token
+  {
+  ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:283:1: error: expected ‘}’ at end of input
+ };
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:283:1: error: expected unqualified-id at end of input
+make: *** [Deque.o] Error 1
+19:57:59 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:257:2: error: ‘T’ does not name a type
+  T at(int index)
+  ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:3: error: ‘LinkedList’ is not a template
+   LinkedList <int>* D;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:19:15: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D->remove(D.at(0));
+               ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:27:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() != 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:5: error: request for member ‘remove’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:14: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+              ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:19: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+                   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:37:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:41:11: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(0);
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:46:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:50:11: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(D.size() - 1);
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:50:16: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(D.size() - 1);
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::dequeSize()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:55:11: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.size();
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::uniqueDeque(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:60:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:64:28: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  for(unsigned i = 0; i < D.size(); i++)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:66:8: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   if(D.at(i) == car)
+        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::dequeSize()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Deque.o] Error 1
+19:58:10 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:3: error: ‘LinkedList’ is not a template
+   LinkedList <int>* D;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:19:15: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D->remove(D.at(0));
+               ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:27:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() != 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:5: error: request for member ‘remove’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:14: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+              ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:19: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+                   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:37:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:41:11: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(0);
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:46:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:50:11: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(D.size() - 1);
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:50:16: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(D.size() - 1);
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::dequeSize()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:55:11: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.size();
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::uniqueDeque(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:60:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:64:28: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  for(unsigned i = 0; i < D.size(); i++)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:66:8: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   if(D.at(i) == car)
+        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::dequeSize()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Deque.o] Error 1
+19:58:21 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:3: error: ‘LinkedList’ is not a template
+   LinkedList <int>* D;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:19:15: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D->remove(D.at(0));
+               ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:27:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() != 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:5: error: request for member ‘remove’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+     ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:14: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+              ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:29:19: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   D.remove(D.at(D.size() - 1));
+                   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:37:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:41:11: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(0);
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:46:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:50:11: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(D.size() - 1);
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:50:16: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.at(D.size() - 1);
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::dequeSize()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:55:11: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  return D.size();
+           ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::uniqueDeque(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:60:7: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  if(D.size() == 0)
+       ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:64:28: error: request for member ‘size’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+  for(unsigned i = 0; i < D.size(); i++)
+                            ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:66:8: error: request for member ‘at’ in ‘((Deque*)this)->Deque::D’, which is of pointer type ‘LinkedList*’ (maybe you meant to use ‘->’ ?)
+   if(D.at(i) == car)
+        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::showRight()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘int Deque::dequeSize()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Deque.o] Error 1
+19:58:26 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:0:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:9:3: error: ‘LinkedList’ is not a template
+   LinkedList <int> D;
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::addLeft(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:5:3: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+  D->insertHead(car);
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::addRight(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:11:3: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+  D->insertTail(car);
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:17:6: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+  if(D->size() != 0)
+      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:19:4: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+   D->remove(D.at(0));
+    ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::uniqueDeque(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:64:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(unsigned i = 0; i < D.size(); i++)
+                                 ^
+make: *** [Deque.o] Error 1
+19:58:34 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::addLeft(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:5:3: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+  D->insertHead(car);
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::addRight(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:11:3: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+  D->insertTail(car);
+   ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:17:6: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+  if(D->size() != 0)
+      ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:19:4: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+   D->remove(D.at(0));
+    ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::uniqueDeque(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:64:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(unsigned i = 0; i < D.size(); i++)
+                                 ^
+make: *** [Deque.o] Error 1
+19:59:23 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::removeLeft()’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:19:13: error: base operand of ‘->’ has non-pointer type ‘LinkedList’
+   D.remove(D->at(0));
+             ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::uniqueDeque(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:64:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(unsigned i = 0; i < D.size(); i++)
+                                 ^
+make: *** [Deque.o] Error 1
+19:59:28 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Deque.d" -MT"Deque.d" -o "Deque.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp: In member function ‘bool Deque::uniqueDeque(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp:64:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(unsigned i = 0; i < D.size(); i++)
+                                 ^
+Finished building: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Deque.cpp
+ 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Factory.d" -MT"Factory.d" -o "Factory.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:8:3: error: ‘LinkedList’ is not a template
+   LinkedList <int*> S;
+   ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:4:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.h:8:3: error: ‘LinkedList’ is not a template
+   LinkedList<int>* Q;
+   ^
+make: *** [Factory.o] Error 1
+19:59:45 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Factory.d" -MT"Factory.d" -o "Factory.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:8:3: error: ‘LinkedList’ is not a template
+   LinkedList <int*> S;
+   ^
+make: *** [Factory.o] Error 1
+19:59:47 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Factory.d" -MT"Factory.d" -o "Factory.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:8:3: error: ‘LinkedList’ is not a template
+   LinkedList <int*> S;
+   ^
+make: *** [Factory.o] Error 1
+19:59:56 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Factory.d" -MT"Factory.d" -o "Factory.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:8:3: error: ‘LinkedList’ is not a template
+   LinkedList <int*> S;
+   ^
+make: *** [Factory.o] Error 1
+19:59:59 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Factory.d" -MT"Factory.d" -o "Factory.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h: At global scope:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:8:3: error: ‘LinkedList’ is not a template
+   LinkedList <int*> S;
+   ^
+make: *** [Factory.o] Error 1
+20:00:10 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Factory.d" -MT"Factory.d" -o "Factory.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+Finished building: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+ 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Queue.d" -MT"Queue.d" -o "Queue.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.cpp: In member function ‘bool Queue::uniqueQueue(int)’:
+Finished building: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.cpp
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Queue.cpp:39:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ 
+  for(unsigned i = 0; i < Q.size(); i++)
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.cpp
+Invoking: Cross G++ Compiler
+                                 ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Stack.d" -MT"Stack.d" -o "Stack.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.cpp:1:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.cpp: In member function ‘bool Stack::uniqueStack(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.cpp:39:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.cpp
+  for(unsigned i = 0; i < S.size(); i++)
+ 
+                                 ^
+Building target: Railroad
+Invoking: Cross G++ Linker
+g++  -o "Railroad"  ./Deque.o ./Factory.o ./Queue.o ./Stack.o   
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [Railroad] Error 1
+20:00:15 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building target: Railroad
+Invoking: Cross G++ Linker
+g++  -o "Railroad"  ./Deque.o ./Factory.o ./Queue.o ./Stack.o   
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [Railroad] Error 1
+20:02:02 **** Incremental Build of configuration Debug for project Railroad ****
+make all 
+Building file: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Factory.d" -MT"Factory.d" -o "Factory.o" "/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp"
+In file included from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Stack.h:2:0,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Station.h:3,
+                 from /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp:2:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h: In member function ‘int LinkedList::at(int)’:
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:259:24: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index < 0) return NULL;
+                        ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:260:26: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(number == 0) return NULL;
+                          ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:261:33: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+   if(index + 1 > number) return NULL;
+                                 ^
+/users/guest/d/dhyer3/Downloads/To Students/Student_Code/Linked_List.h:268:16: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+    else return NULL;
+                ^
+Finished building: /users/guest/d/dhyer3/Downloads/To Students/Student_Code/Factory.cpp
+ 
+Building target: Railroad
+Invoking: Cross G++ Linker
+g++  -o "Railroad"  ./Deque.o ./Factory.o ./Queue.o ./Stack.o   
+/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [Railroad] Error 1

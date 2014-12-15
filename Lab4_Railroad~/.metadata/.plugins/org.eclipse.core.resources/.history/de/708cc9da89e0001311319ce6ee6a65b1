@@ -1,0 +1,284 @@
+#pragma once
+#include <string>
+#include "LinkedListInterface.h"
+#include <iostream>
+
+using namespace std;
+
+template class T
+
+class LinkedList : public LinkedListInterface<T>
+{
+
+private:
+	struct Node
+	{
+		T item;
+		Node* next;
+
+		Node()
+		{
+			next = NULL;
+			item = NULL;
+		};
+		~Node() {};
+		Node(T value)
+		{
+			item = value;
+			next = NULL;
+		};
+	};
+	Node* head;
+	Node* tail;
+	int number;
+public:
+
+	LinkedList(void)
+	{
+		head = NULL;
+		tail = NULL;
+		number = 0;
+	};
+	~LinkedList(void)
+	{
+		clear();
+	};
+
+	/*
+		insertHead
+
+		A node with the given value should be inserted at the beginning of the list.
+
+		Do not allow duplicate values in the list.
+	 */
+	void insertHead(T value)
+	{
+		if(number == 0)
+		{
+			head = new Node(value);
+			tail = head;
+			number++;
+			return;
+		}
+
+		Node* n = head;
+		for(int i = 0; i < number; i++)				//Checking if it already exists
+		{
+			if(n->item == value) return;
+			else if(n != NULL) n = n->next;
+			else break;
+		}
+
+		Node* h = new Node(value);						//Adding the new head
+		h->next = head;
+		head = h;
+
+		number++;
+
+		return;
+	}
+
+	/*
+		insertTail
+
+		A node with the given value should be inserted at the end of the list.
+
+		Do not allow duplicate values in the list.
+	 */
+	void insertTail(T value)
+	{
+		Node* n = head;
+
+		for(int i = 0; i < number; i++)				//Checking if it already exists
+		{
+			if(n->item == value) return;
+			else if(n != NULL) n = n->next;
+			else break;
+		}
+
+		Node* t = new Node(value);						//Adding the new tail
+		if(number == 0)
+		{
+			head = t;
+			tail = t;
+			number++;
+			return;
+		}
+
+			tail->next = t;
+			tail = t;
+			tail->next = NULL;
+
+			number++;
+			return;
+	}
+
+
+	/*
+		insertAfter
+
+		A node with the given value should be inserted immediately after the
+		node whose value is equal to insertionNode.
+
+		A node should only be added if the node whose value is equal to
+		insertionNode is in the list. Do not allow duplicate values in the list.
+	 */
+	void insertAfter(T value, T insertionNode)
+	{
+		if(number == 0) return;
+
+		Node* n = head;
+		for(int i = 0; i < number; i++)				//Checking if it already exists
+		{
+			if(n->item == value) return;
+			else if(n != NULL) n = n->next;
+			else break;
+		}
+
+		Node* current = head;						//The new node is unique
+		for(int i = 0; i < number; i++)
+		{
+			if(current->item == insertionNode)
+			{
+				if(current == tail)
+				{
+					insertTail(value);
+					return;
+				}
+				Node* m = new Node(value);
+				m->next = current->next;
+				current->next = m;
+				number++;
+				return;
+			}
+			else if(current->next != NULL)
+			{
+				current = current->next;
+			}
+			else
+			{
+				return;								//InsertionNode not found
+			}
+		}
+
+	}
+
+	/*
+		remove
+
+		The node with the given value should be removed from the list.
+
+		The list may or may not include a node with the given value.
+	 */
+	void remove(T value)
+	{
+		if(number == 0) return;
+		Node* n = head;
+		if(n == NULL)
+		{
+			return;
+		}
+
+		for(int i = 1; i <= number; i++)
+		{
+			if(n->item == value) break;
+			else if(n->next != NULL) n = n->next;		//CHECK IF N IS IN SCOPE
+			else return;
+		}
+
+		if(number == 1)
+		{
+			clear();
+			return;
+		}
+
+		Node* current = head;
+		while(current->next != NULL)
+		{
+			if(n == NULL)
+			{
+				cout << "ATTEMPT!!!" << endl;
+			}
+
+			if(value == head->item)
+			{
+				n = head;
+				head = head->next;
+				delete n;
+				number--;
+				return;
+			}
+
+			if(current->next->item == value)
+			{
+				if(current->next == tail)
+				{
+					n = tail;
+					tail = current;
+					delete n;
+					tail->next = NULL;
+					number--;
+					return;
+				}
+
+				current->next = n->next;
+				delete n;
+				number--;
+				return;
+			}
+			else
+			{
+				current = current->next;
+			}
+		}
+
+	void clear()
+	{
+		while(head != NULL)
+		{
+			Node* n = head;
+			head = n->next;
+			delete n;
+			number--;
+		}
+
+		head = NULL;
+		tail = NULL;
+	}
+
+	/*
+		at
+
+		Returns the value of the node at the given index. The list begins at
+		index 0.
+
+		If the given index is out of range of the list, return NULL;
+	 */
+	T at(int index)
+	{
+		if(index < 0) return NULL;
+		if(number == 0) return NULL;
+		if(index + 1 > number) return NULL;
+		Node* current = head;
+		if(index == 0) return head->item;
+
+		for(int i = 0; i < index; i++)
+		{
+			if(current->next != NULL) current = current->next;
+			else return NULL;
+		}
+
+		return current->item;
+	}
+
+	/*
+		size
+
+		Returns the number of nodes in the list.
+	 */
+	int size()
+	{
+		return number;
+	}
+
+};

@@ -1,0 +1,72 @@
+#include "Deque.h"
+
+bool Deque::addLeft(int car)
+{
+	D.insertHead(car);
+	return true;
+}
+
+bool Deque::addRight(int car)
+{
+	D.insertTail(car);
+	return true;
+}
+
+bool Deque::removeLeft()
+{
+	if(D.size() != 0)
+	{
+		D.remove(D.at(0));
+		return true;
+	}
+	return false;
+}
+
+bool Deque::removeRight()
+{
+	if(D.size() != 0)
+	{
+		D.remove(D.at(D.size() - 1));
+		return true;
+	}
+	return false;
+}
+
+int Deque::showLeft()
+{
+	if(D.size() == 0)
+	{
+		return -1;
+	}
+	return D.at(0);
+}
+
+int Deque::showRight()
+{
+	if(D.size() == 0)
+	{
+		return -1;
+	}
+	return D.at(D.size() - 1);
+}
+
+int Deque::dequeSize()
+{
+	return D.size();
+}
+
+bool Deque::uniqueDeque(int car)
+{
+	if(D.size() == 0)
+	{
+		return true;
+	}
+	for(unsigned i = 0; i < D.size() - 1; i++)
+	{
+		if(D.at(i) == car)
+		{
+			return false;
+		}
+	}
+	return true;
+}
